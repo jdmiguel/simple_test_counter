@@ -17,7 +17,7 @@ class Counter extends Component {
 
     render() {
         return (
-            <div className="counter">
+            <div className="counter" data-test="component-counter">
                 <p>The count is: {this.state.count}</p>
                 <button onClick={this.onIncrementHandler}>INCREMENT COUNTER</button>
             </div>
